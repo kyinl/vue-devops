@@ -35,8 +35,8 @@ jobs:
         run: yarn install
 
       # Test unit 추가
-      - name: Test unit
-        run: yarn test:unit
+      # - name: Test unit
+      #   run: yarn test:unit
 
       - name: Build page
         run: yarn build
